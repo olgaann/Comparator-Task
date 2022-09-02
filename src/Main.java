@@ -10,7 +10,7 @@ public class Main {
         Person p4 = new Person("Альбус", "Персиваль Вульфрик Брайан Дамблдор", 200); // 4
         Person p5 = new Person("Иоганн", "Себастьян Бах", 30); // 2
         Person p6 = new Person("Граф", "де Ла Фер", 70); // 3
-        Person p7 = new Person("Иосиф", "Бродский", 50); // 3
+        Person p7 = new Person("Иосиф", "Бродский", 50); // 1
 
         list.add(p1);
         list.add(p2);
@@ -33,6 +33,6 @@ public class Main {
             return result;
         });
         System.out.println(list);
-        
+
     }
 }
